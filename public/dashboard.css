@@ -1,0 +1,85 @@
+nav{
+   
+  color: white;
+  text-align: start;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #968d8d;
+}
+nav a{
+  margin-right: 30px;
+  text-decoration: none;
+}
+nav a:hover{
+  color: #968d8d;
+}
+footer {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+  position: fixed;  /* Optionally make it stick to the bottom */
+  bottom: 0;
+  width: 100%;
+}
+
+
+#create-post-form-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+}
+
+
+
+.posts{
+  display: flex;
+  flex-direction: column;
+
+}
+.post{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.post-info{
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 450px;
+}
+.post-info img{
+  width:200px;
+  height: auto;
+  aspect-ratio: 1/1;
+  margin-bottom: 50px;
+}
+.images{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#edit-form{
+  width: 400px;
+}
+#edit-form input{
+  margin-bottom: 20px;
+  height: 40px;
+}

@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', sans-serif; /* Updated, clean font */ 
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    display: flex;          /* Center content */
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;  
+}
+
+.register-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input { 
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+} 
+
+.select-wrapper {
+    margin-bottom: 20px; 
+    text-align: left; /* Align label to left */
+}
+
+.select-wrapper select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #008cba; 
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0071a1; 
+}
+
+/* Footer */ /* Same footer styling as before */
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    position: fixed;  /* Optionally make it stick to the bottom */
+    bottom: 0;
+    width: 100%;
+  }
+

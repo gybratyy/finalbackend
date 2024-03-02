@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;    
+}
+
+/* Navbar */
+nav {
+    background-color: #333; /* Dark background for contrast */
+    color: white;
+    padding: 15px 20px;
+    display: flex; /* For horizontal layout */
+    align-items: center; 
+}
+
+nav a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: #ddd; 
+}
+
+/* Welcome Header */
+.welcome-header {
+    background-color: #f0f0f0;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 5px; 
+}
+
+
+/* Posts Layout */
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center posts horizontally */
+    gap: 20px; 
+}
+
+.post {
+    margin: 20px; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    width: 350px; /* Adjust as needed */
+}
+
+.post img {
+    width: 100%; 
+    height: auto;
+    max-height: 250px; /* Limit image height */
+    object-fit: cover; /* Maintain aspect ratio */
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+}
+
+/* Footer - Same as before */
+
+footer {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    position: fixed;  /* Optionally make it stick to the bottom */
+    bottom: 0;
+    width: 100%;
+  }

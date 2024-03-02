@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>  <script src="https://kit.fontawesome.com/2b40017a14.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/public/register.css">
+</head>
+<body>
+    <main class="register-container">  
+        <h1>Register</h1>
+
+        <form action="/register" method="POST">
+            <div class="input-group">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="email" name="email" placeholder="Email" required>
+               </div>
+
+            <div class="input-group">
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="password" name="passwordConfirm" placeholder="Confirm Password" required>
+            </div>
+
+            <div class="input-group">
+                <input type="text" name="country" placeholder="Country" required>
+                <input type="text" name="city" placeholder="City" required>
+                <input type="number" name="age" placeholder="Age" required>
+            </div>
+
+            <div class="select-wrapper"> 
+                <label for="language">Language:</label>
+                <select name="language" id="language" required>
+                    <option value="russian">Russian</option>
+                    <option value="english">English</option>
+                </select>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+    </main>
+
+    <footer>
+        <div>
+            <h6>© 2024 <a href="https://github.com/gybratyy" target="_blank">
+                <i class="fa-brands fa-github"></i> gybratyy </a></h6> 
+        </div>
+    </footer>
+</body>
+</html>
